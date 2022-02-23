@@ -1,0 +1,7 @@
+ 18:48:59 up 49 days, 11:45,  5 users,  load average: 0.60, 0.48, 0.38
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+nbaker24 pts/0    71.74.98.226     18:42    5:51   0.04s  0.04s -bash
+jmaletic pts/1    131.123.38.179   01Sep21  7days  0.09s  0.09s -bash
+srai     pts/11   174.104.120.108  16:40    3.00s  0.25s  0.21s screen
+srai     pts/12   :pts/11:S.0      16:41   19.00s  1.01s  1.01s /bin/bash
+srai     pts/13   :pts/11:S.1      16:41   11.00s  0.74s  0.18s emacs Lab1.txt

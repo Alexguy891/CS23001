@@ -1,0 +1,4 @@
+std::vector<int, std::allocator<int> >::operator[](unsigned long) is the function that takes the longest runtime overall and the longest self call time. 
+This function becomes a bottleneck since it consistently called by lots of other functions in the program, contributing to bubble_sort being
+the second longest overall function for runtime. This function also is a large bottleneck as it is called a very large amount of times through the program,
+and therefore contributes to a large overall runtime.
